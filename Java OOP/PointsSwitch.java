@@ -22,8 +22,10 @@ public class PointsSwitch {
 			break;
 		case 9:
 			System.out.print("\nExcellent");
+			break;
 		default:
 			System.out.print("\n Please enter a value between 50 and 100.");
+			break;
 		}
 	}
 }

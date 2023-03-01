@@ -15,7 +15,7 @@ public class LotterySwitch {
 			System.out.print("\nYou won a free cup of teh tarik and a regular sized Doughnut!");
 			break;
 		case 3:
-			System.out.print("\nYou won a free cup of Teh Tarik, a regular sized Doughnut, and a 12-oz Orange juice!"):
+			System.out.print("\nYou won a free cup of Teh Tarik, a regular sized Doughnut, and a 12-oz Orange juice!");
 			break;
 		default:
 			System.out.print("Git gud scrub lmao.");
