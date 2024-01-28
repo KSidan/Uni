@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertical Navbar Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="opening">
+            <h1>Hello.</h1>
+            <p>Do please check out that cube there on the top left.</p>
+        </div>
+
+        <div class="cube" onclick="toggleNavbar()">
+        </div>
+
+        <nav id="navbar">
+            <ul>
+                <li><a href="Assignment 1.html">Profile</a></li>
+                <li><a href="Family.html">FProfile</a></li>
+                <li><a href="akademik.html">Academics</a></li>
+                <li><a href="HobbyPage.html">Hobby</a></li>
+                <li><a href="WebProg">Web Programming</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <script>
+        var navbarVisible = false;
+
+        function toggleNavbar() {
+            var navbar = document.getElementById("navbar");
+            navbar.style.display = navbarVisible ? "none" : "block";
+            navbarVisible = !navbarVisible;
+        }
+    </script>
+
+</body>
+
+</html>
